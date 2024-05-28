@@ -40,7 +40,7 @@ form {
 }
 ul {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 1rem;
   list-style: none;
@@ -61,7 +61,6 @@ ul {
     &.completed {
       text-decoration: line-through;
       background-color: #a1a1a1;
-      
     }
     & button {
       padding: 0.5rem 1rem;
